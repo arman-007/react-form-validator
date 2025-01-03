@@ -1,11 +1,9 @@
 /*-------------------------------------------------------------------
-|  🐼 Function findInputError
-|
-|  🐯 Purpose: GIVEN AN ERRORS OBJECT AND AN INPUT NAME, THIS FUNCTION
+|  Purpose: GIVEN AN ERRORS OBJECT AND AN INPUT NAME, THIS FUNCTION
 |              FILTERS THE ERRORS OBJECT AND RETURN THE ERROR OF THE 
 |              GIVEN INPUT.
 |
-|  🐸 Returns:  OBJECT
+|  Returns:  OBJECT
 *-------------------------------------------------------------------*/
 
 export function findInputError(errors, name) {

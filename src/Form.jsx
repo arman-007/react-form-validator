@@ -1,9 +1,7 @@
 /*-------------------------------------------------------------------
-|  🐼 React FC Form
+|  Todo: CREATE AN AWESOME AND MAINTAINABLE FORM COMPONENT 
 |
-|  🦝 Todo: CREATE AN AWESOME AND MAINTAINABLE FORM COMPONENT 
-|
-|  🐸 Returns:  JSX
+|  Returns:  JSX
 *-------------------------------------------------------------------*/
 
 import { Input } from './components'
@@ -16,7 +14,6 @@ import {
   password_validation,
 } from './utils/inputValidations'
 import { useState } from 'react'
-import { GrMail } from 'react-icons/gr'
 import { BsFillCheckSquareFill } from 'react-icons/bs'
 
 export const Form = () => {
@@ -54,7 +51,6 @@ export const Form = () => {
             onClick={onSubmit}
             className="flex items-center gap-1 p-5 font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-800"
           >
-            <GrMail />
             Submit Form
           </button>
         </div>

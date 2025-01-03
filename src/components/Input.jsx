@@ -1,9 +1,7 @@
 /*-------------------------------------------------------------------
-|  🐼 React FC Input
+|  Todo: CREATE RE-USEABLE INPUT COMPOENT
 |
-|  🦝 Todo: CREATE RE-USEABLE INPUT COMPOENT
-|
-|  🐸 Returns:  JSX
+|  Returns:  JSX
 *-------------------------------------------------------------------*/
 
 import cn from 'classnames'

@@ -1,9 +1,7 @@
 /*-------------------------------------------------------------------
-|  🐼 Function isFormInvalid
+|  Purpose: CHECKS IF FORM IS VALID OR NOT
 |
-|  🐯 Purpose: CHECKS IF FORM IS VALID OR NOT
-|
-|  🐸 Returns:  OBJECT
+|  Returns:  OBJECT
 *-------------------------------------------------------------------*/
 
 export const isFormInvalid = err => {

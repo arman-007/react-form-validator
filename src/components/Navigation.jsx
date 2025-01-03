@@ -1,13 +1,10 @@
 /*-------------------------------------------------------------------
-|  🐼 React FC Navigation
+|  Purpose: TOP NAVIGATION BAR
 |
-|  🐯 Purpose: TOP NAVIGATION BAR
-|
-|  🐸 Returns:  JSX
+|  Returns:  JSX
 *-------------------------------------------------------------------*/
 
 import React from 'react'
-import { BsGithub, BsTwitter } from 'react-icons/bs'
 
 export const Navigation = () => {
   return (

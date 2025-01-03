@@ -1,9 +1,7 @@
 /*-------------------------------------------------------------------
-|  🐼 React FC App
+|  Purpose: RENDERS REACT APP
 |
-|  🐯 Purpose: RENDERS REACT APP
-|
-|  🐸 Returns:  JSX
+|  Returns:  JSX
 *-------------------------------------------------------------------*/
 
 import { Navigation } from './components'

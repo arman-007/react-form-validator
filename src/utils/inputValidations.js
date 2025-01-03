@@ -1,9 +1,5 @@
 /*-------------------------------------------------------------------
-|  🐼 Input Validators 
-|
-|  🐯 Purpose: THIS FILE CONTAINS ALL THE VALIDATORS OBJECTS
-|
-|  🐸 Returns:  -
+|  Purpose: THIS FILE CONTAINS ALL THE VALIDATORS OBJECTS
 *-------------------------------------------------------------------*/
 
 export const name_validation = {
@@ -20,6 +16,10 @@ export const name_validation = {
     maxLength: {
       value: 30,
       message: '30 characters max',
+    },
+    pattern: {
+      value: /^[A-Za-z\s-]+$/,
+      message: 'Name should only contain letters, spaces and hyphens',
     },
   },
 }
