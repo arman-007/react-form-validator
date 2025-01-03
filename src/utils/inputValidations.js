@@ -8,7 +8,7 @@
 
 export const name_validation = {
   name: 'name',
-  label: 'name',
+  label: 'full name',
   type: 'text',
   id: 'name',
   placeholder: 'write your name ...',
@@ -62,14 +62,18 @@ export const password_validation = {
 
 export const num_validation = {
   name: 'num',
-  label: 'number',
-  type: 'number',
+  label: 'phone number',
+  type: 'tel',
   id: 'num',
   placeholder: 'write a random number',
   validation: {
     required: {
       value: true,
       message: 'required',
+    },
+    pattern: {
+      value: /^\+[0-9]{1,}$/,
+      message: 'Phone number must start with + and contain only numbers',
     },
   },
 }
